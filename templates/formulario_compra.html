@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stanley - Formulario de Compra</title>
+    <link rel="stylesheet" href="./static/css/main.css">
+</head>
+<body>
+    <div class="wrapper2">
+        <main>
+            <h2 class="title2">Formulario de Compra</h2>
+            <form id="formularioCompra" class="formularioCompra">
+                <p><strong>Total a pagar: </strong>$<span id="monto-total"></span></p>
+                <label class="labelform" for="nombre-tarjeta">Nombre en la Tarjeta</label>
+                <input class="inputform" type="text" id="nombre-tarjeta" name="nombre-tarjeta" required>
+
+                <label class="labelform" for="numero-tarjeta">Número de Tarjeta</label>
+                <input class="inputform" type="text" id="numero-tarjeta" name="numero-tarjeta" required>
+
+                <label class="labelform" for="expiracion">Fecha de Expiración</label>
+                <input class="inputform" type="text" id="expiracion" name="expiracion" placeholder="MM/AA" required>
+
+                <label class="labelform" for="codigo-seguridad">Código de Seguridad</label>
+                <input class="inputform" type="text" id="codigo-seguridad" name="codigo-seguridad" required>
+
+                <label class="labelform" for="direccion">Dirección</label>
+                <input class="inputform" type="text" id="direccion" name="direccion" required>
+
+                <label class="labelform" for="ciudad">Ciudad</label>
+                <input class="inputform" type="text" id="ciudad" name="ciudad" required>
+
+                <label class="labelform" for="codigo-postal">Código Postal</label>
+                <input class="inputform" type="text" id="codigo-postal" name="codigo-postal" required>
+
+                <button class="buttonform" type="submit">Confirmar Compra</button>
+            </form>
+            <a href="{{ url_for('carrito') }}">
+                <button class="buttonform">Volver al Carrito</button>
+            </a>
+        </main>
+    </div>
+
+    <script>
+        document.getElementById("monto-total").textContent = new Intl.NumberFormat('es-ES').format(localStorage.getItem("monto-total"));
+        
+        // Manejar el envío del formulario
+        document.getElementById("formularioCompra").addEventListener("submit", function(event) {
+            event.preventDefault();  // Evitar el envío normal del formulario
+
+            localStorage.setItem("compra-realizada", "true");
+
+            localStorage.removeItem("monto-total");
+            localStorage.removeItem("productos-en-carrito");
+            
+            // Redirigir al carrito
+            window.location.href = "{{ url_for('carrito') }}";
+        });
+    </script>
+</body>
+</html>

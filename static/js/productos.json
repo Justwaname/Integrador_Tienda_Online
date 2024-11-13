@@ -1,0 +1,178 @@
+[
+    {
+        "id": "mate-01",
+        "titulo": "Mate Stanley 236 Ml",
+        "imagen": "/static/img/mates/01.png",
+        "categoria": {
+            "nombre": "Mates",
+            "id": "mates"
+        },
+        "precio": 60500,
+        "descripcion": "El mate Stanley mantiene la temperatura durante toda la cebada. Es práctico e higiénico. Apertura de boca ancha para facilitar el llenado y la limpieza. Se adapta perfecto al bolsillo trasero. Tapa de acero mecanizado, para mayor durabilidad."
+    },
+    {
+        "id": "mate-02",
+        "titulo": "Mate Stanley 236 ML Rosa",
+        "imagen": "/static/img/mates/02.jpg",
+        "categoria": {
+            "nombre": "Mates",
+            "id": "mates"
+        },
+        "precio": 60500,
+        "descripcion": "El mate Stanley mantiene la temperatura durante toda la cebada. Es práctico e higiénico. Apertura de boca ancha para facilitar el llenado y la limpieza. Se adapta perfecto al bolsillo trasero. Tapa de acero mecanizado, para mayor durabilidad."
+    },
+    {
+        "id": "mate-03",
+        "titulo": "Bombilla Para Mate Stanley Spoon",
+        "imagen": "/static/img/mates/03.jpg",
+        "categoria": {
+            "nombre": "Mates",
+            "id": "mates"
+        },
+        "precio": 5000,
+        "descripcion": "¿Buscás una Bombilla para mate? Nuestra Bombilla para mate Stanley Spoon fue desarrollada cuidando cada detalle para revolucionar la experiencia de beber mate o tereré, con tecnología única de Stanley. Para aquellos que prefieren seguir las tradiciones al pie de la letra, trajimos la nueva bombilla de cuchara Stanley."
+    },
+    {
+        "id": "hidratacion-01",
+        "titulo": "Botella Térmica Stanley Flip Straw 887 Ml",
+        "imagen": "/static/img/hidrataciones/01.jpg",
+        "categoria": {
+            "nombre": "Hidrataciones",
+            "id": "hidrataciones"
+        },
+        "precio": 92500,
+        "descripcion": "La Botella Térmica Stanley Flip Straw 887 ml es el compañero perfecto para mantenerte hidratado con estilo mientras practicas deportes al aire libre en Argentina. Con su pajita incorporada, es fácil de sorber y la función de ajuste mantiene la botella completamente a prueba de fugas."
+    },
+    {
+        "id": "hidratacion-02",
+        "titulo": "Botella Térmica Stanley Aerolight 591 Ml",
+        "imagen": "/static/img/hidrataciones/02.jpg",
+        "categoria": {
+            "nombre": "Hidrataciones",
+            "id": "hidrataciones"
+        },
+        "precio": 64050,
+        "descripcion": "La Botella Térmica Stanley Aerolight 591 ml es la mejor opción para guardar tus bebidas favoritas y mantenerlas a la temperatura ideal. Esta botella ligera y muy compacta está fabricada con una estructura de aluminio resistente y una tapa hermética para mantener la temperatura por hasta 24 horas."
+    },
+    {
+        "id": "hidratacion-03",
+        "titulo": "Vaso Stanley Quencher 1.18 Lts",
+        "imagen": "/static/img/hidrataciones/03.jpg",
+        "categoria": {
+            "nombre": "Hidrataciones",
+            "id": "hidrataciones"
+        },
+        "precio": 120000,
+        "descripcion": "EL VASO DE TUS SUEÑOS: Sea cual sea tu día, te mantiene fresco con menos recargas. El aislamiento al vacío de doble pared permite que las bebidas permanezcan frías, heladas o calientes durante horas."
+    },
+    {
+        "id": "hidratacion-04",
+        "titulo": "Botella Stanley Go Flip 1 Lt",
+        "imagen": "/static/img/hidrataciones/04.jpg",
+        "categoria": {
+            "nombre": "Hidrataciones",
+            "id": "hidrataciones"
+        },
+        "precio": 93500,
+        "descripcion": "La botella Quick Flip GO puede caber en la mayoría de los portavasos para que pueda viajar en su vehículo. El aislamiento de doble pared mantiene su té, café u otras bebidas calientes favoritas calientes por hasta 10 horas o frías por hasta 18 horas."
+    },
+    {
+        "id": "hidratacion-05",
+        "titulo": "Botella De Agua Stanley 740 Ml",
+        "imagen": "/static/img/hidrataciones/05.jpg",
+        "categoria": {
+            "nombre": "Hidrataciones",
+            "id": "hidrataciones"
+        },
+        "precio": 83500,
+        "descripcion": "Nuestra botella para agua es compatible con cualquier actividad. Con un diseño cómodo y portable. La tapa con bisagras de esta botella hará que nunca tengas que preocuparte por perderla mientras te refrescás en medio de la aventura."
+    },
+    {
+        "id": "hidratacion-06",
+        "titulo": "Botella Térmica Stanley Classic Neverleak Mug 591 Ml",
+        "imagen": "/static/img/hidrataciones/06.jpg",
+        "categoria": {
+            "nombre": "Hidrataciones",
+            "id": "hidrataciones"
+        },
+        "precio": 91500,
+        "descripcion": "Nuestra Botella Térmica Stanley Classic Neverleak Mug 591 ml es la compañera perfecta para la aventura. Está hecha con una tapa única de 3 posiciones que gira para abrirse y cerrarse de forma hermética para evitar fugas incluso en terrenos accidentados."
+    },
+    {
+        "id": "hidratacion-07",
+        "titulo": "Taza Vaso Térmico Stanley Camp Mug 354 Ml",
+        "imagen": "/static/img/hidrataciones/07.jpg",
+        "categoria": {
+            "nombre": "Hidrataciones",
+            "id": "hidrataciones"
+        },
+        "precio": 57050,
+        "descripcion": "Nuestra Taza Vaso Térmico Stanley Camp Mug conserva tus bebidas a una temperatura ideal. Hay una razón por la que llamamos a esta taza Legendaria. Se hace resistente con el aislamiento al vacío de doble pared de Stanley, por lo que sus bebidas favoritas se mantienen calientes o frías por más tiempo."
+    },
+    {
+        "id": "hidratacion-08",
+        "titulo": "Growler Stanley 1.9 Lts",
+        "imagen": "/static/img/hidrataciones/08.jpg",
+        "categoria": {
+            "nombre": "Hidrataciones",
+            "id": "hidrataciones"
+        },
+        "precio": 50000,
+        "descripcion": "¡Cerveza fría, y mucha!. En respuesta a la exigencia de nuestros seguidores, creamos el Growler de 1.9L. que te permite transportar tu bebida favorita con mucho estilo y sin descuidar su funcionalidad."
+    },
+    {
+        "id": "termo-01",
+        "titulo": "Termo Stanley Mate-System 1.2 Lts",
+        "imagen": "/static/img/termos/01.jpg",
+        "categoria": {
+            "nombre": "Termos",
+            "id": "termos"
+        },
+        "precio": 146500,
+        "descripcion": "En Argentina, el mate es una bebida muy especial que se comparte en todo momento y lugar. Y para hacer que esta experiencia sea aún más especial, Stanley ha creado el Termo Mate System Classic 1.2 lts, el compañero ideal para disfrutar del mate en cualquier situación."
+    },
+    {
+        "id": "termo-02",
+        "titulo": "Termo Stanley Mate-System 800 Ml",
+        "imagen": "/static/img/termos/02.jpg",
+        "categoria": {
+            "nombre": "Termos",
+            "id": "termos"
+        },
+        "precio": 124500,
+        "descripcion": "El mate es una bebida muy especial en Argentina, y para mejorar tu experiencia de matear, Stanley ha creado el Termo Stanley Mate System Classic 800 ml, un compañero ideal para el mate. Con tecnología exclusiva, este termo cuenta con un tapón de altísima precisión que permite verter el agua directamente en el punto deseado para una cebada perfecta y con fluido continuo."
+    },
+    {
+        "id": "termo-03",
+        "titulo": "Termo Stanley Clasico 950 Ml Con Manija Y Tapon Cebador",
+        "imagen": "/static/img/termos/03.jpg",
+        "categoria": {
+            "nombre": "Termos",
+            "id": "termos"
+        },
+        "precio": 116500,
+        "descripcion": "¿Sos un apasionado de los viajes y aventuras? El icónico Termo Mate Classic de Stanley ha presenciado viajes memorables durante generaciones. Llevá este clásico con vos y disfrutá de momentos compartidos. Esta botella mantiene tus bebidas calientes y frias hasta por 24 horas gracias a la doble pared con aislamiento al vacío."
+    },
+    {
+        "id": "termo-04",
+        "titulo": "Termo Stanley Adventure TO-GO 750 Ml",
+        "imagen": "/static/img/termos/04.jpg",
+        "categoria": {
+            "nombre": "Termos",
+            "id": "termos"
+        },
+        "precio": 102500,
+        "descripcion": "a botella Adventure To-Go tiene un diseño moderno y un rendimiento duradero. Aislados y a prueba de fugas, estos nuevos elementos esenciales deberían permanecer a tu lado día tras día. Diseñado para los días de trabajo, de vacaciones y todos los días, esta próxima generación es más liviana, delgada y elegante que nunca."
+    },
+    {
+        "id": "termo-05",
+        "titulo": "Termo Stanley Clasico 2.3 Lts",
+        "imagen": "/static/img/termos/05.png",
+        "categoria": {
+            "nombre": "Termos",
+            "id": "termos"
+        },
+        "precio": 157500,
+        "descripcion": "¿Buscás un termo de alto rendimiento? Nuestro Termo Clasico Stanley de 2.3 lts es ideal para vos. Para que mantengas tu aventura todo el día, toda la noche y hasta la mañana siguiente. Mantiene tus líquidos calientes o fríos durante 48 horas y helados hasta por 10 días."
+    }
+]
